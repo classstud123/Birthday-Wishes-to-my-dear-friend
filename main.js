@@ -4,7 +4,7 @@ var canvas = new fabric.Canvas('myCanvas');
 function new_image()
 {
 	
-	fabric.Image.fromURL('wish.png', function(Img) {
+	fabric.Image.fromURL('wish.jpg', function(Img) {
 	block_image_object = Img;
 		
 	block_image_object.scaleToWidth(700);
